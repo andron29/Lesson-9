@@ -1,0 +1,34 @@
+@media only screen and (max-width: 360px){
+    .container .hero-block .header{
+        display:none;
+    }
+    .container .hero-block .hero-block-information .img {
+        width: 48px;
+        height: 72px;
+        left: 68px;
+        top: 60px;
+            }
+    .container .hero-block .hero-block-information{
+        display:flex;
+        flex-direction: column;
+        padding-left: 10px;
+     }
+     .container .hero-block .hero-block-information .hero-block-details button{
+        display:flex;
+        justify-content: center;
+        margin: 50px 90px 12px 0;
+        padding: 14px 51px 13px;
+        border: none;
+     }
+     .container .conference-details span{
+        font-size: 30px;
+        line-height: 45px;
+     }
+     .container .conference-details .conference-numbers {
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .container .conference-details .conference-numbers .b1,.b2,.b3,.b4{
+        width:calc(100%/2) ;
+   }
+  }
